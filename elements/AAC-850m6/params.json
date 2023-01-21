@@ -1,0 +1,89 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 40,
+        "width": 40
+    },
+    "display": "Anything List Demo",
+    "fields": {
+        "AAD": {
+            "caption": "A List of Any Type",
+            "doc": "The Bubble programmer can input nearly any list type expression here, opening up a massive can of whoop-ass on how we must process this input.",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "input_list",
+            "rank": 1,
+            "value": "_any_thing"
+        },
+        "AAE": {
+            "caption": "Info",
+            "doc": "This is a demo plug-in that shows the use the \"anything list\" input for Bubble plugins. While -- on the face of it -- this seems like a really cool interface (the user can supply ANYTHING!) -- the reality is that it's almost never worth the trouble, except in very well defined use cases.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        }
+    },
+    "icon": "ion-ios-infinite",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAG": {
+            "caption": "Plugin Status",
+            "doc": "A string describing what's the plugin's status.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "plugin_status",
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "List Item Description",
+            "doc": "A sting describing the items in the input-list.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "list_item_description",
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "Input Is List?",
+            "doc": "Goes true if the input value is a list.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "input_is_list",
+            "value": "boolean"
+        },
+        "AAJ": {
+            "caption": "Items as Text",
+            "doc": "If we find a primitive or a Thing, we'll publish either a text version of the value, or (in the case of Things) the UID of the Thing here.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "items_as_text",
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "Fields on Thing",
+            "doc": "If our List contains Things, we'll publish the field names of the Thing here.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "fields_on_thing",
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "List Length",
+            "doc": "If we have a list, this output will contain the number of items in the List (its \"count\" or \"length\").",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "list_length",
+            "value": "number"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "energy",
+        "2": "location"
+    },
+    "demo_page": "https://www.example.com",
+    "description": "This plugin contains an element plugin that uses an input field of type \"anything list\". It demonstrates (in the console) what gets returned to us when we access its properties... And gives hints about what we have to do to fully interpret and process the input that the Bubble programmer may send to us via a field of this type.\n\nThis plugin MAY be a work-in-progress. Also, it does nothing useful. It's purely for educational purposes. \n\nHave a nice day.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1594587873949x267382086358788800/noun_Infinity_3282279.svg",
+    "license": "open_source",
+    "link": "https://www.example.com",
+    "name": "Anything List Demo",
+    "plugin_instructions": "This is a demonstration plugin. Use it to learn how to deal with plugin input fields of type \"anything list\". \n\nYou're welcome."
+}
